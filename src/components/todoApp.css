@@ -1,0 +1,60 @@
+.todoContainer {
+    max-width: 450px;
+    margin: 100px auto;
+}
+
+.todoCreateForm {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+.todoInput {
+    width: 100%;
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #999;
+}
+
+.buttonCreate {
+    background-color: rgb(26, 76, 169);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.todosContainer {
+    margin-top: 10px;
+}
+
+.todo {
+    padding: 5px;
+    background-color: white;
+    flex: 1;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.todoTitle {
+    flex: 1;
+    font-size: 1rem;
+}
+
+.todoUpdateForm, .todoInfo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.button {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: rgb(3, 135, 86);
+    color: white;
+}
+
+.buttonDelete {
+    background-color: red;
+}
